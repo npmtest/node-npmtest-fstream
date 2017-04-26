@@ -1,6 +1,6 @@
 # npmtest-fstream
 
-#### test coverage for  [fstream (v1.0.11)](https://github.com/npm/fstream#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-fstream.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-fstream) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-fstream.svg)](https://travis-ci.org/npmtest/node-npmtest-fstream)
+#### basic test coverage for  [fstream (v1.0.11)](https://github.com/npm/fstream#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-fstream.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-fstream) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-fstream.svg)](https://travis-ci.org/npmtest/node-npmtest-fstream)
 
 #### Advanced file system stream things
 
@@ -10,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-fstream/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-fstream/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-fstream/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-fstream/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-fstream/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-fstream/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-fstream/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-fstream/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-fstream/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-fstream/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-fstream/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-fstream/build/coverage.html/index.html)
 
@@ -88,7 +88,8 @@
     "scripts": {
         "test": "standard && tap examples/*.js"
     },
-    "version": "1.0.11"
+    "version": "1.0.11",
+    "bin": {}
 }
 ```
 
